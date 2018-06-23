@@ -1,0 +1,9 @@
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\bin\Debug\netcoreapp2.0\PriceConsultingServiceVO.deps.json
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\bin\Debug\netcoreapp2.0\PriceConsultingServiceVO.dll
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\bin\Debug\netcoreapp2.0\PriceConsultingServiceVO.pdb
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.csprojResolveAssemblyReference.cache
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.csproj.CoreCompileInputs.cache
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.AssemblyInfoInputs.cache
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.AssemblyInfo.cs
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.dll
+D:\Sistemas\PriceConsultingService\PriceConsultingService\PriceConsultingServiceVO\obj\Debug\netcoreapp2.0\PriceConsultingServiceVO.pdb
