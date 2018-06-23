@@ -1,0 +1,87 @@
+{
+	"info": {
+		"_postman_id": "93648ec1-c189-4cc1-806f-c6a77d96ec66",
+		"name": "WorldCup",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "games Scores",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Real Time Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://api.foxsports.com/sportsdata/v1/soccer/wc/events.json?group=12&date=20180623&enable=s&apikey=jE7yBJVRNAwdDesMgTzTXUUSx1It41Fq",
+					"protocol": "https",
+					"host": [
+						"api",
+						"foxsports",
+						"com"
+					],
+					"path": [
+						"sportsdata",
+						"v1",
+						"soccer",
+						"wc",
+						"events.json"
+					],
+					"query": [
+						{
+							"key": "group",
+							"value": "12"
+						},
+						{
+							"key": "date",
+							"value": "20180623"
+						},
+						{
+							"key": "enable",
+							"value": "s"
+						},
+						{
+							"key": "apikey",
+							"value": "jE7yBJVRNAwdDesMgTzTXUUSx1It41Fq"
+						}
+					]
+				},
+				"description": "Realtime games with scores"
+			},
+			"response": []
+		},
+		{
+			"name": "API Get Results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:62696/api/WorldCup/GetWorldCupGamesAsync",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "62696",
+					"path": [
+						"api",
+						"WorldCup",
+						"GetWorldCupGamesAsync"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
