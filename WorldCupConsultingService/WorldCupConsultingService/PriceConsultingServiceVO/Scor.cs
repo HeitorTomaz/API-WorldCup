@@ -13,5 +13,8 @@ namespace WorldCupConsultingServiceVO.Models
         public int homeShots { get; set; }
         public int awayShotsOnGoal { get; set; }
         public int homeShotsOnGoal { get; set; }
+        public Boolean isShootout { get; set; }
+        public int awayShootoutScore { get; set; }
+        public int homeShootoutScore { get; set; }
     }
 }
