@@ -28,7 +28,9 @@ namespace API_WorldCup.Controllers
             // string url = "https://www.mercadobitcoin.net/api/" + coin + "/ticker/";
             var apikey = "jE7yBJVRNAwdDesMgTzTXUUSx1It41Fq";
             var WorldCupId = "12";
-            string url = "https://api.foxsports.com/sportsdata/v1/soccer/wc/events.json?group="+ WorldCupId + "&date=" + DateTime.Today.ToString("yyyyMMdd") + "&enable=s&apikey=" + apikey;
+            var hoje = "20180626";
+            hoje = DateTime.Today.ToString("yyyyMMdd");
+            string url = "https://api.foxsports.com/sportsdata/v1/soccer/wc/events.json?group="+ WorldCupId + "&date=" + hoje + "&enable=s&apikey=" + apikey;
 
             var ret = await GetData(url);
             //ret.coin = coin;
